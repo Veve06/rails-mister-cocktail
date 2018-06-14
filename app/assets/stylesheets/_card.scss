@@ -1,0 +1,18 @@
+.card {
+  background-image: url(http://i42.tinypic.com/ezg1om.jpg);
+  background-size: cover !important;
+  height: 300px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-position: center;
+  color: white;
+  position: relative;
+  margin: 30px;
+
+}
+.card-header {
+  height: 300px;
+  background-size: cover;
+}
+.card-body {
+  padding: 30px;
+}

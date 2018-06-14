@@ -1,0 +1,19 @@
+@import "bootstrap";
+@import 'bootstrap-sprockets';
+
+
+h2 > a {
+  color: #D41D3B;
+}
+
+h1 {
+  color: #D41D3B;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  background-image: url('drunk.jpeg');
+}
