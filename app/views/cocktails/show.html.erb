@@ -7,6 +7,7 @@
         <ul>
         <li> <%= dose.description %> </li>
         <li> <%= dose.ingredient.name %></li>
+        <%= cl_image_tag @dose.ingredient.photo, height: 300, width: 400, crop: :fill %>
         <p><%= link_to 'Remove ingredient', cocktail_dose_path(@cocktail, dose), method: :delete, data: { confirm: 'Are you sure?' } %> </p>
         </ul>
         <%end %>
